@@ -15,7 +15,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 防止虚假唤醒机制
  *
  */
-public class ProductConsumer_TraditionDemo {
+public class ProducerConsumer_TraditionDemo {
     public static void main(String[] args) {
         ShareData shareData = new ShareData();
 
